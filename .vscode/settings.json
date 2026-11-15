@@ -1,0 +1,27 @@
+
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.analysis.languageServerMode": "default",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.indexing": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.packageIndexDepths": [
+    {
+      "name": "keras",
+      "depth": 3,
+      "includeAllSymbols": true
+    },
+    {
+      "name": "tensorflow",
+      "depth": 2,
+      "includeAllSymbols": true
+    }
+  ],
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.parameterHints.enabled": true
+}
